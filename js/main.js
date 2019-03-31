@@ -18,6 +18,14 @@
         }
       ]
     },
+    watch: {
+      todos: {
+        handler: function () {
+          localStorage.setItem('todos', JSON.stringify(this.todos));
+        },
+        deep: true
+      }
+    },
     methods: {
       addItem: function () {
         var item = {
