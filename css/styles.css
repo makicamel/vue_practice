@@ -32,6 +32,12 @@ body {
   padding: 2px;
 }
 
+.info {
+  color: #bbb;
+  font-size: 12px;
+  font-weight: normal;
+}
+
 .command {
   font-size: 12px;
   cursor: pointer;
